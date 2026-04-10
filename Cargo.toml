@@ -1,0 +1,8 @@
+[package]
+name = "cuda-voxel-logic"
+version = "0.1.0"
+edition = "2021"
+description = "Voxel logic engine — 3D spatial reasoning with occupancy grids, pathfinding, and constructive solid geometry for agent world models"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
